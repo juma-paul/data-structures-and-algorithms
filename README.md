@@ -25,4 +25,4 @@ To run these solutions on your local machine, ensure you have the following:
 
 ## Disclaimer
 
-For the purpose of learning, I advise you to attempt solving the problems on LeetCode first before referring to these solutions. This will help you enhance your problem-solving skills.
+The solutions provided in this repository are intended for educational purposes. It is strongly advised that you attempt to solve the problems on LeetCode on your own first before referring to these solutions. This approach will help you enhance your problem-solving skills and deepen your understanding. The solutions here are not guaranteed to be the most optimal or the only correct approach.
