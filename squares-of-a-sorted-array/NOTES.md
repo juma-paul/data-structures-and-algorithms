@@ -1,4 +1,4 @@
-<h2>Explanation of the Solution</h2><hr>
+<h2>Explanation of the Solution</h2>
 <p>We can square and then sort the array; however, it won't be the most efficient solution.</p>
 <p>
   <ol>
