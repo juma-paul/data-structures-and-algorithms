@@ -1,4 +1,4 @@
-<h2>Explanation of the solution</h2><hr>
+<h2>Explanation of the solution</h2>
 <p>
   <ol>
     <li>Use two pointers to solve the problem.</li>
