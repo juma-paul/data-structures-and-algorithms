@@ -1,8 +1,8 @@
 ## Explanation of the Solution
 
-1. Convert the input string `s` to lowercase and remove all non-alphanumeric characters using regular expressions.
-2. Initialize two pointers, `left` and `right`, to the first and last indices of the cleaned string, respectively.
-3. Iterate through the string using the two pointers until they meet or cross.
-4. If the characters at the `left` and `right` pointers are not equal, return `False` as the string is not a palindrome.
-5. Otherwise, continue iterating by incrementing the `left` pointer and decrementing the `right` pointer.
-6. If the loop completes without returning `False`, the string is a palindrome, so return `True`.​
+1. Initialize the index `i` to 0.
+2. Iterate through the array `arr` using a `for` loop with index `i` ranging from 0 to `len(arr) - 2`.
+3. Inside the loop, check if three consecutive elements starting from index `i` (`arr[i]`, `arr[i + 1]`, `arr[i + 2]`) are odd numbers (`arr[i] % 2 != 0`, `arr[i + 1] % 2 != 0`, `arr[i + 2] % 2 != 0`).
+4. If all three elements are odd, return `True` immediately as we have found three consecutive odds.
+5. If the loop completes without finding such a sequence, return `False`.
+
